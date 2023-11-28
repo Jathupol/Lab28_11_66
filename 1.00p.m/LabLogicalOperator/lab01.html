@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert(null || 2 || undefined); //ผลลัพธ์ที่แสดงจะเป็น 2
+        alert(alert(1) || 2 || alert(3)); //ผลลัพธ์ที่แสดงจะเป็น 2
+        alert(1 && null && 2); //ผลลัพธ์ที่แสดงจะเป็น null
+        alert(alert(1) && alert(2)); //ผลลัพธ์ที่แสดงจะเป็น undefined
+        alert(null || (2 && 3) || 4); //ผลลัพธ์ที่แสดงจะเป็น 3
+    </script>
+</body>
+</html>
