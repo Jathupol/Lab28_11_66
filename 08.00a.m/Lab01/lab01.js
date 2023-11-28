@@ -1,11 +1,11 @@
 // //------------Lab01--------------
-// let person;
-// let name;
+let person;
+let name;
 
-// name = "Jathupol";
-// person = "name";
+name = "Jathupol";
+person = "name";
 
-// alert(person);
+alert(person);
 // //------------Lab02---------------
 // let myMony;
 // let myfather;
